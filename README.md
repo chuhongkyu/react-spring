@@ -13,12 +13,12 @@
 
 ## 사용
 
-- [ ] from | obj Base values, optional
-- [ ] to | obj/fn/array(obj) Animates to ...
-- [ ] loop | obj/fn/bool Looping settings, see loop prop for more details
-- [ ] delay| number/fn Delay in ms before the animation starts. Also valid as a function for individual keys: key => delay
-- [ ] immediate | bool/fn Prevents animation if true. Also valid as a function for individual keys: key => immediate
-- [ ] config | obj/fn Spring config (contains mass, tension, friction, etc). Also valid as a function for individual keys: key => config
+- [✓] from | obj | Base values, optional
+- [✓] to | obj/fn/array(obj) | Animates to ...
+- [✓] loop | obj/fn/bool | Looping settings, see loop prop for more details
+- [ ] delay| number/fn | Delay in ms before the animation starts. Also valid as a function for individual keys: key => delay
+- [ ] immediate | bool/fn | Prevents animation if true. Also valid as a function for individual keys: key => immediate
+- [ ] config | obj/fn | Spring config (contains mass, tension, friction, etc). Also valid as a function for individual keys: key => config
 - [ ] reset | bool The spring starts to animate from scratch (from -> to) if set true
 - [ ] reverse | bool "from" and "to" are switched if set true, this will only make sense in combination with the "reset" flag
 
