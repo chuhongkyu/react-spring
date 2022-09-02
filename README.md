@@ -25,3 +25,13 @@
 - [ ] cancel | bool/string/fn When true, the cancel prop stops the animation of every animated value owned by the Controller that receives it. See cancel prop for more details
 - [ ] pause | bool The pause prop literally freezes animations in time.
 - [ ] events | fn A variety of event callbacks (see events for more information)
+
+## 알게된점
+
+- Hooks api 구조 와 Render-props api 구조가 있다.
+- 우리는 Hooks api를 쓰려고 노력하자. Render-proips는 Class다.
+
+- Hooks api
+
+- Intrerpolation
+  [개념 중요]https://www.howdy-mj.me/react-spring/05-interpolation/
