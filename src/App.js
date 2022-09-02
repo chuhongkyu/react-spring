@@ -24,6 +24,9 @@ function App() {
         </p>
       </div>
       <div className="Section">
+        <Loop />
+      </div>
+      <div className="Section">
         {/* <Loop /> */}
         <CardBox />
       </div>

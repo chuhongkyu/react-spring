@@ -1,28 +1,25 @@
-import { useRef, useState } from "react";
-import { useSpring, animated } from "react-spring";
+import { useSpring, a } from "react-spring";
 
 const Loop = () => {
-  const n = useRef(0);
-
   const styles = useSpring({
-    //false 멈추고
-    loop: { reverse: true },
-    from: { x: 0 },
-    to: { x: 180 },
+    loop: true,
+    from: { x: 1000 },
+    to: { x: 0 },
+    config: { friction: 50 },
   });
 
   return (
-    <div className="Box">
-      <animated.div
-        style={{
-          width: 80,
-          height: 80,
-          backgroundColor: "#46e891",
-          borderRadius: 16,
-          ...styles,
-        }}
-      />
-      <span style={{ padding: 10, backgroundColor: "blue" }}> 버튼</span>
+    <div className="Box0">
+      <a.div className="Bar">
+        <a.div
+          style={{
+            width: "100%",
+            height: 80,
+            backgroundColor: "#46e891",
+            ...styles,
+          }}
+        />
+      </a.div>
     </div>
   );
 };
