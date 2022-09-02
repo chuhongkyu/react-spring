@@ -1,4 +1,3 @@
-import { useRef, useState } from "react";
 import { useSpring, a } from "react-spring";
 
 const Loop = () => {
