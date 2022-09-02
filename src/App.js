@@ -1,6 +1,7 @@
 import "./App.css";
 import CardBox from "./components/CardBox";
 import Loop from "./components/Loop";
+import SpaceShip from "./components/SpaceShip";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       <div className="Section">
         {/* <Loop /> */}
         <CardBox />
+      </div>
+      <div className="Section">
+        <SpaceShip />
       </div>
     </div>
   );
