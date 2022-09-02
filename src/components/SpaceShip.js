@@ -13,6 +13,7 @@ const SpaceShip = () => {
     },
     [toggle]
   );
+
   return (
     <div className="Box2">
       <animated.div
